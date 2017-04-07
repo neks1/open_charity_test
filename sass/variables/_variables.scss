@@ -1,0 +1,52 @@
+/* color */
+$white: #fff;
+$black: #000;
+$grey: #808080;
+
+$main-color: #6E7487;
+
+$color-title: #565659;
+
+$color-blue: #5EBFBD;
+$color-dark-blue: #5BC0C3;
+$color-light-blue: #BBE4E7;
+$color-light-white: #FAFDFD;
+$color-light-black: #656569;
+
+$color-bgr: #F1F2F5;
+
+$color-footer: #454850;
+
+$color-icon: #61C0BD;
+
+$color-missions-text: #5E5E61;
+$color-missions-icon: #5ac0cf;
+
+$color-light-grey: #969EB7;
+
+$slick-button: #979EB2;
+
+$color-border-h5: #f2f2f2;
+
+$color-blog-text: #5A6176;
+
+$color-blog-bgr: #5D5E61;
+
+// Fonts: ;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=latin-ext');
+$opensans: 'Open Sans', sans-serif;
+
+@include fontfamily('museosans500', museosans500, 500);
+@include fontfamily('MuseoSansRounded300', MuseoSansRounded300, 300);
+@include fontfamily('MuseoSansRounded500', MuseoSansRounded500, 500);
+
+
+$museo:       'museosans500', sans-serif;
+$museor3:           'MuseoSansRounded300', sans-serif;
+$museor5:           'MuseoSansRounded500', sans-serif;
+
+
+$light: 300;
+$normal: 400;
+$semi-bold: 600;
+$bold: 700;

@@ -1,0 +1,32 @@
+name = There for Open Charity
+core = 7.x
+version = 7.0
+engine = phptemplate
+project = test
+datestamp = 1447187950
+screenshot = screenshot.jpg
+
+stylesheets[all][] = dist/main.css
+
+regions[header]         = Header
+regions[content]        = Content
+regions[intro]          = Intro
+regions[event]          = Event
+regions[involve]        = Involve
+regions[mission]        = Mission
+regions[members]        = Members
+regions[blog]           = Blog
+regions[help]           = Help
+regions[footer]         = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+scripts[] = dist/main.js

@@ -1,0 +1,54 @@
+.footer {
+  background: $color-footer;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 25px;
+
+  .block-addtoany {
+    border-bottom: 1px solid rgba($grey, .5);
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .icon {
+    background: url(../images/icons/social.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 18px;
+    width: 30px;
+  }
+
+  .fb {
+    background-position: 0 0;
+  }
+
+  .tw {
+    background-position: -33px 0;
+  }
+
+  .gp {
+    background-position: -74px 0;
+  }
+
+  .copyright {
+    padding-top: 25px;
+  }
+
+  .copyright a {
+    color: $color-icon;
+    text-decoration: none;
+  }
+
+  .copyright p {
+    color: $color-light-grey;
+  }
+}
+
+@media (min-width: $tab768) {
+  .footer {
+    .copyright {
+      width: 595px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "frontend",
+  "version": "2.0.0",
+  "dependencies": {
+    "slick-carousel": "^1.6.0",
+    "slicknav": "^1.0.10"
+  }
+}

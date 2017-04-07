@@ -1,0 +1,54 @@
+.involve {
+
+  h2 {
+    text-align: center;
+  }
+
+  .views-row {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .field-img {
+    margin-bottom: 30px;
+  }
+
+  .field-img img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .field-link {
+    width: 196px;
+    margin: 0 auto;
+  }
+
+  .field-link a {
+    @include main-btn-transparent;
+  }
+
+  .field-title span {
+    text-transform: uppercase;
+  }
+
+  .field-description {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: $tab768) {
+  .involve {
+    .field-img {
+      min-height: 105px;
+    }
+
+    .views-row {
+      float: left;
+      width: 33%;
+    }
+
+    .field-description {
+      padding: 0 30px;
+    }
+  }
+}

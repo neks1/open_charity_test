@@ -1,0 +1,84 @@
+.blog {
+  background: $color-bgr;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    background: $color-blog-bgr;
+    bottom: -1px;
+    content: '';
+    display: block;
+    height: 170px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .region-blog {
+    background: $white;
+    padding: 40px 0 50px 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .views-row {
+    outline: none;
+    padding: 0 30px;
+  }
+
+  .views-field-title a {
+    text-decoration: none;
+    color: $color-blue;
+    position: relative;
+  }
+
+  .views-field-title a:before {
+    bottom: 0;
+    content: '...';
+    display: block;
+    position: absolute;
+    right: -12px;
+  }
+
+  .data-time {
+    border-top: 1px solid $color-border-h5;
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+
+  .field-content p {
+    color: $color-blog-text;
+  }
+}
+
+@media (min-width: $desc) {
+  .blog {
+
+    .region-blog {
+      position: relative;
+    }
+
+    .region-blog:after,
+    .region-blog:before {
+      background: $white;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 293px;
+      position: absolute;
+      width: 50px;
+    }
+
+    .region-blog:after {
+      left: -50px;
+    }
+
+    .region-blog:before {
+      right: -50px;
+    }
+  }
+}

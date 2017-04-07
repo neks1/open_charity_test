@@ -1,0 +1,30 @@
+.footer,
+.content-inner {
+  @media (min-width: $mob320) {
+    .region {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  @media (min-width: $tab768) {
+    .region {
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
+      width: 750px;
+    }
+  }
+
+  @media (min-width: $tab992) {
+    .region {
+      width: 950px;
+    }
+  }
+
+  @media (min-width: $desc) {
+    .region {
+      width: 1170px;
+    }
+  }
+}

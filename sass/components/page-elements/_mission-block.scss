@@ -1,0 +1,129 @@
+.mission {
+  background: $color-bgr;
+  padding-top: 40px;
+
+  h2,
+  .description,
+  .additional-description {
+    text-align: center;
+  }
+
+  .description,
+  .additional-description {
+    margin-bottom: 25px;
+  }
+
+  .additional-description {
+    font-family: $museor5;
+    font-size: 17px;
+    font-weight: $bold;
+  }
+
+  .block-views {
+    border-bottom: 1px solid rgba($grey, .5);
+    margin-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .views-row {
+    background: $white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 290px;
+  }
+
+  .views-row-3 {
+    margin-bottom: 0;
+  }
+
+  .field-title a {
+    color: $color-blue;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .field-title {
+    margin-top: -35px;
+  }
+
+  .field-description p {
+    color: $color-missions-text;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .icon {
+    background: $color-missions-icon;
+    border-radius: 50%;
+    border: 10px solid $white;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding: 20px 18px;
+    position: relative;
+    top: -50px;
+    width: 100px;
+  }
+
+  .icon .field-content {
+    height: 100%;
+  }
+
+  .icon img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media (min-width: $tab768) {
+  .mission {
+
+    .block-views {
+      margin-left: auto;
+      margin-right: auto;
+      width: 750px;
+    }
+
+    .views-row {
+      float: left;
+      width: 350px;
+    }
+
+    .views-row-1 {
+      margin-right: 50px;
+    }
+
+    .views-row-3 {
+      margin-left: 200px;
+    }
+  }
+}
+
+@media (min-width: $desc) {
+  .mission {
+
+    .block-views {
+      margin-left: auto;
+      margin-right: auto;
+      width: 1110px;
+    }
+
+    .views-row {
+      margin-bottom: 0;
+      margin-right: 30px;
+    }
+
+    .views-row:nth-child(3n+3) {
+      margin-right: 0;
+    }
+
+    .views-row-3 {
+      margin-left: 0;
+    }
+  }
+}

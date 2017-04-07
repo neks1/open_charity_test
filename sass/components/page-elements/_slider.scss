@@ -1,0 +1,58 @@
+.slick-prev,
+.slick-next {
+  height: 28px;
+  top: 47%;
+  width: 18px;
+  z-index: 1;
+
+  &:before {
+    display: none;
+    top: 47%;
+  }
+}
+
+.slick-prev {
+  background: url('../images/icons/arrow-left.png') no-repeat;
+  background-size: contain;
+  left: -25px;
+
+  &:active,
+  &:hover,
+  &:focus {
+    background: url('../images/icons/arrow-left.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+.slick-next {
+  background: url('../images/icons/arrow-right.png') no-repeat;
+  background-size: contain;
+  right: -25px;
+
+  &:active,
+  &:hover,
+  &:focus {
+    background: url('../images/icons/arrow-right.png') no-repeat;
+    background-size: contain;
+  }
+}
+
+.slick-dots li {
+  height: auto;
+  width: auto;
+
+  button:before {
+    display: none;
+  }
+
+  &.slick-active button {
+    background-color: $color-dark-blue;
+  }
+
+  button {
+    background-color: $slick-button;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+  }
+}

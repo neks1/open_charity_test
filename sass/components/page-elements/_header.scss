@@ -1,0 +1,47 @@
+.header {
+  background: #fff;
+  left:0;
+  padding: 15px 35px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  float: left;
+  width: 155px;
+}
+
+.sticky-header .header {
+  box-shadow: 0 2px 10px 0 $grey;
+}
+
+@media (min-width: $mob640) {
+  .header {
+    padding: 20px 35px;
+  }
+}
+
+@media (min-width: $tab768) {
+  .header {
+    padding: 20px 0;
+  }
+
+  .header .inner-header {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $tab992) {
+  .header .inner-header {
+    width: 950px;
+  }
+}
+
+@media (min-width: $desc) {
+  .header .inner-header {
+    width: 1170px;
+  }
+}
